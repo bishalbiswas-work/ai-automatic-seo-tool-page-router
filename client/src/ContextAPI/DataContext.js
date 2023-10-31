@@ -715,7 +715,9 @@ const DataState = (props) => {
   const fetchBlogs = async () => {
     try {
       const domain = window.location.hostname;
+      // const domain = "translify.club";
       const docRef = doc(db, "AutoSEO_Blogs", domain);
+
       console.log("Doc ref: ", docRef);
       const docSnap = await getDoc(docRef);
 
