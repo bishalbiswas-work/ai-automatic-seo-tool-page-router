@@ -99,8 +99,8 @@ const BlogPage = () => {
 
           <LoaderBar />
         </div>
-        <div className="mt-[3rem] font-worksans md:h-[3747px] h-[3011px] max-w-[1241px] mx-auto md:px-5 relative w-full">
-          <div className="absolute md:h-[3747px] h-[3011px] inset-y-[0] my-auto right-[13%] w-[66%] md:w-full">
+        <div className="mt-[3rem] font-worksans md:h-[3747px] h-[2911px] max-w-[1241px] mx-auto md:px-5 relative w-full">
+          <div className="absolute md:h-[3747px] h-[2911px] inset-y-[0] my-auto right-[13%] w-[66%] md:w-full">
             <div className="absolute flex flex-col h-max inset-[0] items-center justify-start m-auto w-auto">
               <div className="flex flex-col gap-8 items-center justify-start max-w-[800px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-start max-w-[695px] w-full">

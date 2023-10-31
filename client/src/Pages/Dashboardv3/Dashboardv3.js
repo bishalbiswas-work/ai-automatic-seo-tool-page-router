@@ -92,7 +92,7 @@ const Dashboardv3 = () => {
               /> */}
               <div className="bg-gray-200_04 pt-[30px] border border-solid border-white-A700_14 flex md:flex-1 flex-col items-end justify-start p-[5px] rounded-[24px] md:w-full">
                 <div className="flex flex-col items-center justify-start mr-2  md:w-full">
-                  <Button
+                  {/* <Button
                     onClick={() => {
                       handleClickNext();
                     }}
@@ -101,7 +101,7 @@ const Dashboardv3 = () => {
                     size="md"
                   >
                     Try For Free{" "}
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </div>
@@ -281,7 +281,7 @@ const Dashboardv3 = () => {
                                         October {10 * (index + 1)}, 2022
                                       </Text>
                                     </div>
-                                    <div>
+                                    {/* <div>
                                       {index == 0 && (
                                         <div className="flex flex-col items-start justify-start w-auto">
                                           <div className="flex flex-row gap-5 items-start justify-start w-auto">
@@ -414,7 +414,7 @@ const Dashboardv3 = () => {
                                           </div>
                                         </div>
                                       )}
-                                    </div>
+                                    </div> */}
                                   </div>
                                 </div>
                               </div>
@@ -752,7 +752,7 @@ const Dashboardv3 = () => {
                                       </Text>
                                     </div>
                                   </div>
-                                  <div>
+                                  {/* <div>
                                     {index == 0 && (
                                       <div className="flex flex-col items-start justify-start w-auto">
                                         <div className="flex flex-row gap-5 items-start justify-start w-auto">
@@ -885,7 +885,7 @@ const Dashboardv3 = () => {
                                         </div>
                                       </div>
                                     )}
-                                  </div>
+                                  </div> */}
                                 </div>
                               </div>
                             ))}
