@@ -15,6 +15,7 @@ import ChatInterface_v2 from "./Dashboard/ChatInterface_v2";
 
 import Dashboard from "./Dashboardv2/Pages/Dashboard";
 import Dashboardv3 from "./Pages/Dashboardv3/Dashboardv3";
+import Dashboardv4 from "pages/Dashboardv4";
 import BlogPage2 from "./Pages/BlogPage/BlogPage";
 // import Logout from "./Pages/Auth/Logout";
 import PaymentSuccess from "./Pages/Auth/PaymentSuccess";
@@ -50,8 +51,9 @@ class App extends Component {
                   element={
                     <WrapperComponent>
                       {/* <LandingPagev2 /> */}
-                      <Dashboardv3 />
+                      {/* <Dashboardv3 /> */}
                       {/* <LandingPage /> */}
+                      <Dashboardv4 />
                     </WrapperComponent>
                   }
                 />
@@ -64,6 +66,14 @@ class App extends Component {
                     </WrapperComponent>
                   }
                 />
+                {/* <Route
+                  path="/dashboard"
+                  element={
+                    <WrapperComponent>
+                      <Dashboardv4 />
+                    </WrapperComponent>
+                  }
+                /> */}
 
                 {/* <Route
                   path="/extract-data"
