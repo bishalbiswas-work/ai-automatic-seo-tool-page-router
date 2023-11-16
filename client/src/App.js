@@ -46,26 +46,9 @@ class App extends Component {
           <BrowserRouter>
             <Routes>
               <Route path="/">
-                <Route
-                  index
-                  element={
-                    <WrapperComponent>
-                      {/* <LandingPagev2 /> */}
-                      {/* <Dashboardv3 /> */}
-                      {/* <LandingPage /> */}
-                      <Dashboardv4 />
-                    </WrapperComponent>
-                  }
-                />
+                <Route index element={<Dashboardv4 />} />
 
-                <Route
-                  path="/success"
-                  element={
-                    <WrapperComponent>
-                      <PaymentSuccess />
-                    </WrapperComponent>
-                  }
-                />
+                <Route path="/success" element={<PaymentSuccess />} />
                 {/* <Route
                   path="/dashboard"
                   element={
@@ -84,23 +67,16 @@ class App extends Component {
                   }
                 /> */}
 
-                <Route
-                  path="dashboard/blogpage"
-                  element={
-                    <WrapperComponent>
-                      <BlogPage2 />
-                    </WrapperComponent>
-                  }
-                />
+                <Route path="dashboard/blogpage" element={<BlogPage2 />} />
 
-                <Route
+                {/* <Route
                   path="/pricing"
                   element={
-                    <WrapperComponent>
+                  
                       <NewPricing />
-                    </WrapperComponent>
+                  
                   }
-                />
+                /> */}
                 <Route path="/page-not-found" element={<PageNotFount />} />
                 <Route path="*" element={<PageNotFount />} />
               </Route>
