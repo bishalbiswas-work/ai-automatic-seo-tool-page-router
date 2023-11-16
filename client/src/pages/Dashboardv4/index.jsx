@@ -61,6 +61,7 @@ const Dashboardv4 = () => {
             <Text
               className="bg-clip-text bg-gradient  text-base text-center text-transparent w-auto"
               size="txtPoppinsSemiBold16"
+              style={{ color: "black", fontWeight: "500" }}
             >
               {(businessMetaData?.name?.charAt(0)?.toUpperCase() ?? "") +
                 (businessMetaData?.name?.slice(1) ?? "")}
@@ -89,13 +90,14 @@ const Dashboardv4 = () => {
             </div>
           </div>
         </header>
-        <div className="flex flex-col font-lato h-[1239px] md:h-auto items-start justify-start max-w-[1440px] w-full">
+        <div className="flex flex-col font-lato h-[1239px] md:h-auto items-start justify-start max-w-[1440px] w-full mt-[20px]">
           <div className="flex md:flex-col flex-row md:gap-5 h-[1237px] md:h-auto items-start justify-start max-w-[1440px] w-full">
             <div className="bg-white-A700 flex flex-1 flex-col gap-8 h-[1237px] md:h-auto items-start justify-start max-w-[1072px] pl-[140px] pr-11 md:px-5 py-10 w-full">
               <div className="flex flex-col items-start justify-start w-auto">
                 <Text
                   className="text-black-900 text-xl w-auto"
                   size="txtLatoBold20"
+                  style={{ fontWeight: "500" }}
                 >
                   {(businessMetaData?.name?.charAt(0)?.toUpperCase() ?? "") +
                     (businessMetaData?.name?.slice(1) ?? "")}{" "}
@@ -136,6 +138,7 @@ const Dashboardv4 = () => {
                         <Text
                           className="leading-[150.00%] max-w-[226px] md:max-w-full text-[13px] text-gray-900_01"
                           size="txtLatoSemiBold13"
+                          style={{ fontWeight: "500" }}
                         >
                           {/* How to Make Iced Matcha Latte From Home - 3 Steps. */}
                           {item.title}
@@ -411,6 +414,7 @@ const Dashboardv4 = () => {
                     <Text
                       className="text-gray-900_02 text-xl w-full"
                       size="txtLatoBold20Gray90002"
+                      style={{ fontWeight: "500" }}
                     >
                       {(businessMetaData?.name?.charAt(0)?.toUpperCase() ??
                         "") + (businessMetaData?.name?.slice(1) ?? "")}
@@ -430,15 +434,20 @@ const Dashboardv4 = () => {
                     </span>
                   </Text>
                   <Text
-                    className="leading-[170.00%] max-w-[208px] md:max-w-full text-[13px] text-blue_gray-700"
+                    className="leading-[170.00%] max-w-[208px] md:max-w-full text-[13px] "
                     size="txtLatoMedium13"
+                    style={{
+                      color: "#42526D !important",
+                      fontWeight: "300",
+                      fontSize: "13px",
+                    }}
                   >
                     <>
                       {businessMetaData.summary
                         .split(" ")
-                        .slice(0, 100)
+                        .slice(0, 50)
                         .join(" ") +
-                        (businessMetaData.summary.split(" ").length > 150
+                        (businessMetaData.summary.split(" ").length > 50
                           ? "..."
                           : "")}
                     </>
