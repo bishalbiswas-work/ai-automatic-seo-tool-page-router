@@ -645,7 +645,7 @@ const BlogPage = () => {
               </div>
             </div>
           </div> */}
-          <div className="absolute bg-white-A700 border border-gray-300_01 border-solid flex flex-col font-worksans gap-2.5 items-center justify-start p-4 right-[0] rounded-[12px] top-[0] w-auto">
+          {/* <div className="absolute bg-white-A700 border border-gray-300_01 border-solid flex flex-col font-worksans gap-2.5 items-center justify-start p-4 right-[0] rounded-[12px] top-[0] w-auto">
             <Img
               className="h-[26px] w-full"
               src="/images/img_frame1000002924.svg"
@@ -716,7 +716,7 @@ const BlogPage = () => {
                 </div>
               </List>
             </div>
-          </div>
+          </div> */}
 
           <div className="absolute bg-white-A700 border border-gray-300_01 border-solid flex flex-col font-worksans gap-6 items-start justify-start left-[0] px-4 py-6 rounded-[12px] top-[0] w-[303px]">
             <Text
